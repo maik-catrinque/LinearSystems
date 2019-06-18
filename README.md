@@ -1,5 +1,10 @@
 # LinearSystems
 
+This project contains methods for parsing a matrix using dense and CRS storage methods. Also, methods for solving a matrix using LU Factorization and Successive Over-Relaxation.
+
+## Matrix Format
+Matrix format must be exactly as the formats followed in the matrices from the folder `matrices`.
+
 
 ## Usage
 
