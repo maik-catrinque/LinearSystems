@@ -228,14 +228,14 @@ int main(int argc, char** argv) {
 
         matrix = denseMatrix;
 
-        denseDebug(denseMatrix);
+        //denseDebug(denseMatrix);
         size = denseGetSize(denseMatrix);
     } else {
         MatrixCRS* crs = (MatrixCRS*) parseMatrix(newMatrixCRSBuilder, file);
 
         matrix = crs;
 
-        debugCRS(crs);
+        //debugCRS(crs);
         size = crsGetSize(crs);
     }
 
